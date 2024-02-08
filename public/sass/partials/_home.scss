@@ -1,0 +1,257 @@
+body.home .entry {
+  padding-top: 0;
+}
+
+body.home .entry-title {
+  display: none;
+}
+
+div.white-ridges-up,
+div.white-ridges-down {
+  min-height: 19px;
+  background-repeat: repeat-x;
+  position: relative;
+  z-index: 999;
+}
+
+div.white-ridges-up {
+  background: url(/images/white-ridges-up.png);
+  background-repeat: repeat-x;
+  margin-top: -19px;
+  margin-bottom: 0;
+}
+
+div.white-ridges-down {
+  background: url(/images/white-ridges-down.png);
+  background-repeat: repeat-x;
+  margin-bottom: -19px;
+}
+
+section.home__section {
+  background-color: #fff;
+  color: #000;
+  position: relative;
+  overflow: hidden;
+
+  .inside-container {
+    z-index: 2;
+    width: 100%;
+    padding: 60px 0;
+  }
+
+  p {
+    font-weight: 300;
+    color: #5d5d5d;
+    line-height: 1.8;
+    font-size: 1.2em;
+  }
+}
+
+section.home__section:nth-of-type(2) {
+  background: #7bc4ae;
+  min-height: 150px;
+}
+
+section.home__section--cityscape {
+  background: linear-gradient(#61adf5, #f6fbff);
+  min-height: 1100px;
+  color: #fff;
+
+  h1, h2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    backface-visibility: hidden;
+    text-align: center;
+    text-shadow: -1px 1px 1px #000;
+    font-family: 'Populaire';
+  }
+
+  h1 {
+    margin-top: 190px;
+    margin-bottom: 0;
+    font-size: 5em;
+  }
+
+  h2 {
+    top: 286px;
+    font-size: 2em;
+    margin-top: 0;
+  }
+
+  div.skyline {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 100%;
+    min-height: 1000px;
+  }
+
+  div.skyline.skyline--first {
+    background: url(/images/ground-newshadow-1.png) repeat-x;
+    background-position: 50% 100%;
+    min-height: 430px;
+    bottom: 0;
+  }
+
+  div.skyline.skyline--prlx-1 {
+    background: url(/images/buildings-1-newshadow.png) 50% 0 no-repeat;
+    min-height: 598px;
+    position: fixed;
+    top: 340px;
+  }
+
+  div.skyline.skyline--prlx-2 {
+    background: url(/images/buildings-2-newshadow.png) 50% 0 no-repeat;
+    min-height: 600px;
+    position: fixed;
+    top: 245px;
+  }
+
+  div.skyline.skyline--prlx-3 {
+    background: url(/images/buildings-3-newshadow-1.png) 50% 0 no-repeat;
+    min-height: 765px;
+    position: fixed;
+    top: 130px;
+  }
+
+  div.skyline.skyline--cloud-1 {
+    top: 150px;
+    left: 0px;
+    margin: 0;
+    background: url(/images/cloud-1-small-newshadow.png) 50% 50% no-repeat;
+    position: fixed;
+    opacity: 1;
+    min-height: 58px;
+    max-width: 275px;
+    animation: clouds-1 50s linear infinite, fade-in 4s linear;
+  }
+
+  div.skyline.skyline--cloud-2 {
+    top: 300px;
+    right: -495px;
+    background: url(/images/cloud-2-small-newshadow.png) 50% 50% no-repeat;
+    position: fixed;
+    opacity: 1;
+    min-height: 97px;
+    max-width: 495px;
+    animation: clouds-2 80s linear, fade-in 4s linear;
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+  }
+
+  div.skyline.skyline--balloons {
+    top: 12%;
+    left: -10%;
+    background: url(/images/airplane-with-banner.png) no-repeat;
+    position: absolute;
+    display: block;
+    background-size: contain;
+    opacity: 1;
+    min-height: 130px;
+    max-width: 650px;
+    //    animation: balloon-float 3s ease-in-out infinite;
+    animation-direction: alternate;
+  }
+
+  div.skyline.skyline--sunbox {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    min-height: 100px;
+    position: fixed;
+
+    div.sun-rays {
+      position: absolute;
+      top: 120px;
+      right: 15%;
+      height: 120px;
+      width: 120px;
+      background: url(/images/sun-rays-newshadow.png);
+      background-size: cover;
+      animation: sunrays 30s linear infinite;
+    }
+
+    div.the-sun {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      background-color: #ffe94a;
+      height: 100px;
+      width: 100px;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+      animation: sun 2s ease-in-out infinite;
+      animation-direction: alternate;
+      backface-visibility: hidden;
+      perspective: 1000;
+    }
+  }
+}
+
+main.content section.home__section--about {
+
+  h2{
+    font-size: 3em;
+    color: #89918f;
+    text-align: center;
+    margin-top: 0;
+  }
+
+  h3 {
+    font-size: 1.8em;
+    color: #6f9c92;
+    margin: 10px 0;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+div.circle {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #4a6860;
+  text-align: center;
+  overflow: hidden;
+}
+
+.tight,
+.tighter {
+  margin: 0 auto;
+}
+
+.tight {
+  max-width: 960px;
+}
+
+.tighter {
+  max-width: 455px;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+section.home__section--contact {
+  color: #545454;
+}

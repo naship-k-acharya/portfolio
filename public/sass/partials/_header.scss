@@ -1,0 +1,105 @@
+header.site-header {
+  background-color: transparent;
+  backface-visibility: hidden !important;
+  height: 111px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  backface-visibility: hidden;
+  -webkit-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -moz-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -ms-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+
+  div#temp {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-top: 10px;
+    
+    text-align: center;
+    overflow: hidden;
+    -webkit-transition: background-color 0.3s ease-in-out;
+    -moz-transition: background-color 0.3s ease-in-out;
+    -ms-transition: background-color 0.3s ease-in-out;
+    -o-transition: background-color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  .wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    .title-area {
+      width: 33%;
+      float: left;
+    }
+
+    .primary-nav {
+      width: 66%;
+      float: right;
+      padding: 2% 0;
+      text-align: right;
+
+      ul li {
+        display: inline-block;
+        padding: 0 6%;
+
+        a {
+          font-size: 1.6em;
+          letter-spacing: 2px;
+          color: #fff;
+          -webkit-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -moz-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -ms-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          -o-transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
+          font-family: 'Populaire';
+          -webkit-text-shadow: -1px 1px 1px #000;
+          -moz-text-shadow: -1px 1px 1px #000;
+          -ms-text-shadow: -1px 1px 1px #000;
+          -o-text-shadow: -1px 1px 1px #000;
+          text-shadow: -1px 1px 1px #000;
+        }
+      }
+    }
+  }
+}
+
+header.site-header.nav-down:not(.top-of-page) {
+  background: rgba(255, 255, 255, 0.97);
+  -webkit-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.7);
+
+  .primary-nav {
+
+    ul li {
+
+      a {
+        color: #000;
+        -webkit-text-shadow: none;
+        -moz-text-shadow: none;
+        -ms-text-shadow: none;
+        -o-text-shadow: none;
+        text-shadow: none;
+      }
+    }
+  }
+
+  div#temp {
+    background-color: #BADEC8;
+  }
+}
+
+header.site-header.nav-down.top-of-page {
+  background-color: transparent;
+}
+
+header.site-header.nav-up {
+  transform: translate3d(0,-101px,0);
+}
+

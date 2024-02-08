@@ -1,0 +1,278 @@
+@media only screen and (max-width: 1125px) {
+    body.my-work section.my-work__section .scroll-content {
+        img {
+            width: 420px;
+        }
+
+        img.mobile {
+            width: 112px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    header.site-header .wrap {
+        max-width: 800px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    .inside-container {
+        padding: 0 35px;
+    }
+
+    main.content section.home__section--cityscape {
+        min-height: 700px;
+        font-size: 0.8em;
+
+        div.skyline {
+            background-size: contain !important;
+        }
+
+        div.skyline.skyline--prlx-3 {
+            top: 200px;
+        }
+
+        div.skyline.skyline--sunbox div.sun-rays {
+            height: 90px;
+            width: 90px;
+        }
+
+        div.skyline.skyline--sunbox div.the-sun {
+            height: 75px;
+            width: 75px;
+        }
+
+        div.skyline.skyline--cloud-1 {
+            min-height: 40px;
+        }
+
+        div.skyline.skyline--cloud-2 {
+            min-height: 63px;
+        }
+
+        h2 {
+            top: 255px;
+        }
+    }
+}
+
+@media only screen and (max-width: 930px) {
+    body.my-work section.my-work__section .scroll-content {
+        img {
+            width: 380px;
+        }
+
+        img.mobile {
+            width: 97px;
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    body.my-work section.my-work__section .scroll-content {
+        img.mobile {
+            right: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body.full-width .site-inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    main.content section.home__section--cityscape {
+        min-height: 650px;
+    }
+}
+
+//@media only screen and (min-width: 769px) {
+//  main.content section.home__section--cityscape {
+//    div.skyline.skyline--prlx-1,
+//    div.skyline.skyline--prlx-2,
+//    div.skyline.skyline--prlx-3 {
+//      position: fixed;
+//    }
+//  }
+//}
+
+@media only screen and (max-width: 768px) {
+    header.site-header {
+        position: absolute;
+    }
+
+    header.site-header .wrap {
+        max-width: 600px;
+        padding: 0 30px;
+    }
+
+    .nomobile {
+        display: none;
+    }
+
+    .inside-container {
+        padding: 0 20px;
+    }
+
+    body.my-work div.site-inner {
+        font-size: 0.8em;
+    }
+
+    main.content section.home__section--cityscape div.skyline {
+        position: absolute !important;
+
+        div.skyline.skyline--prlx-1 {
+            top: 340px;
+        }
+        div.skyline.skyline--prlx-2 {
+            top: 300px;
+        }
+        div.skyline.skyline--prlx-3 {
+            top: 270px;
+        }
+    }
+
+    main.content section.home__section--cityscape h1,
+    main.content section.home__section--cityscape h2 {
+        position: absolute;
+    }
+
+    body.my-work section.my-work__section {
+        .scroll-content,
+        .static {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding: 30px 0;
+        }
+
+        .scroll-content {
+            img {
+                width: auto;
+            }
+
+            img.mobile {
+                right: -20px;
+                width: 150px;
+            }
+        }
+        .static .desc {
+            position: initial;
+            transform: none;
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    main.content section.home__section--cityscape {
+        min-height: 600px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body.my-work section.my-work__section h1 {
+        -webkit-text-shadow: none;
+        -moz-text-shadow: none;
+        -ms-text-shadow: none;
+        -o-text-shadow: none;
+        text-shadow: none;
+    }
+
+    header.site-header .wrap {
+        max-width: 500px;
+    }
+
+    main.content section.home__section--cityscape div.skyline.skyline--sunbox div.the-sun {
+        height: 50px;
+        width: 50px;
+    }
+
+    main.content section.home__section--cityscape div.skyline.skyline--sunbox div.sun-rays {
+        height: 60px;
+        width: 60px;
+    }
+
+    main.content section.home__section--cityscape {
+        font-size: 0.7em;
+
+        h1,
+        h2 {
+            -webkit-text-shadow: none;
+            -moz-text-shadow: none;
+            -ms-text-shadow: none;
+            -o-text-shadow: none;
+            text-shadow: none;
+        }
+
+        h2 {
+            top: 245px;
+        }
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    body.my-work section.my-work__section {
+        .scroll-content {
+            img {
+                width: 85%;
+            }
+
+            img.mobile {
+                right: 15px;
+                top: 47px;
+                width: 115px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    main.content section.home__section--cityscape {
+        min-height: 560px;
+        font-size: 0.6em;
+
+        h2 {
+            top: 240px;
+        }
+
+        div.skyline.skyline--prlx-3 {
+            top: 240px;
+        }
+
+        div.skyline.skyline--prlx-2 {
+            top: 275px;
+        }
+
+        div.skyline.skyline--cloud-1 {
+            min-height: 30px;
+            left: -50px;
+        }
+
+        div.skyline.skyline--cloud-2 {
+            min-height: 40px;
+            right: -150px;
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    main.content section.home__section--cityscape {
+        min-height: 515px;
+
+        div.skyline.skyline--prlx-3 {
+            top: 260px;
+        }
+
+        div.skyline.skyline--prlx-2 {
+            top: 290px;
+        }
+    }
+}

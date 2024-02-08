@@ -1,0 +1,1 @@
+<p>{{ $bodyEmail }} said: {{ $bodyMessage }}</p>

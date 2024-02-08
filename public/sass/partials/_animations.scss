@@ -1,0 +1,250 @@
+@media (min-width: 769px) {
+    /****************** Sunrise ******************/
+    @keyframes sunrise {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @-webkit-keyframes sunrise {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    @-moz-keyframes sunrise {
+        from {
+            opacity: 1;
+        }
+
+        to {
+            opacity: 0;
+        }
+    }
+
+    /******************* Day to Night ********************/
+    @keyframes day-to-night {
+        0% {
+            background-color: #280035;
+        }
+
+        100% {
+            background-color: #a0d0fd;
+        }
+    }
+
+    @-webkit-keyframes day-to-night {
+        0% {
+            background-color: #280035;
+        }
+
+        100% {
+            background-color: #a0d0fd;
+        }
+    }
+
+    @-moz-keyframes day-to-night {
+        0% {
+            background-color: #280035;
+        }
+
+        100% {
+            background-color: #a0d0fd;
+        }
+    }
+
+    /******************* Balloon ********************/
+    @keyframes balloon-float {
+        0% {
+            transform: translate3d(0, -20px, 0);
+        }
+
+        100% {
+            transform: translate3d(0, 20px, 0);
+        }
+    }
+
+    @-webkit-keyframes balloon-float {
+        0% {
+            transform: translate3d(0, -20px, 0);
+        }
+
+        100% {
+            transform: translate3d(0, 20px, 0);
+        }
+    }
+
+    @-moz-keyframes balloon-float {
+        0% {
+            transform: translate3d(0, -20px, 0);
+        }
+
+        100% {
+            transform: translate3d(0, 20px, 0);
+        }
+    }
+}
+
+/****************** Fade-in ******************/
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/****************** Clouds-1 *******************/
+@keyframes clouds-1 {
+    0% {
+        transform: translate3d(-22vw, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(100vw, 0, 0);
+    }
+}
+
+@-webkit-keyframes clouds-1 {
+    0% {
+        transform: translate3d(-22vw, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(100vw, 0, 0);
+    }
+}
+
+@-moz-keyframes clouds-1 {
+    0% {
+        transform: translate3d(-22vw, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(100vw, 0, 0);
+    }
+}
+
+/****************** Clouds-2 ******************/
+@keyframes clouds-2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100vw, 0, 0);
+    }
+}
+
+@-webkit-keyframes clouds-2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100vw, 0, 0);
+    }
+}
+
+@-moz-keyframes clouds-2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-100vw, 0, 0);
+    }
+}
+
+/****************** Sun ******************/
+@keyframes sun {
+    0% {
+        background-color: #ffb318;
+    }
+
+    100% {
+        background-color: #ffda4a;
+    }
+}
+
+@-webkit-keyframes sun {
+    0% {
+        background-color: #ffb318;
+    }
+
+    100% {
+        background-color: #ffda4a;
+    }
+}
+
+@-moz-keyframes sun {
+    0% {
+        background-color: #ffb318;
+    }
+
+    100% {
+        background-color: #ffda4a;
+    }
+}
+
+/****************** Sun Rays ******************/
+
+@keyframes sunrays {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes sunrays {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes sunrays {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

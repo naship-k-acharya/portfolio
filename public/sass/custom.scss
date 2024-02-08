@@ -1,0 +1,252 @@
+@import "compass";
+@import "partials/variables";
+/*
+Table of contents:
+
+1. GENERAL
+
+2. PREHEADER
+
+3. HEADER
+
+4. NAV
+
+5. CONTENT
+
+6. FOOTER
+
+7. HOMEPAGE
+
+8. CONTACT PAGE
+
+XX. MEDIA QUERIES
+*/
+/*******
+1. GENERAL
+********/
+
+@import "compass";
+@import "partials/variables";
+@import "partials/animations";
+
+@font-face {
+  font-family: 'Populaire';
+  src: url('/fonts/Populaire.eot');
+  src: url('/fonts/Populaire.eot?#iefix') format('embedded-opentype'),
+  url('/fonts/Populaire.woff') format('woff'),
+  url('/fonts/Populaire.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('/fonts/BrandonGrotesque-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brandon Grotesque Light';
+  src: url('/fonts/BrandonGrotesque-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+html {
+
+}
+
+body {
+  background-color: #a0d0fd;
+  overflow-x: hidden;
+  font: 400 1.000em 'Helvetica Neue LT Pro', sans-serif;
+  color: #fff;
+  margin: 0 !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Brandon Grotesque Light';
+}
+
+p {
+  font-family: Lato, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: none;
+  height: 17px;
+  background: url("/images/dotted-hr.png") 50% 50% no-repeat;
+  margin: 70px 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+div.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-family: Lato;
+}
+
+/*
+Full width page styles
+*/
+
+body.full-width {
+
+  div.site-inner {
+    max-width: 100%;
+
+    article.entry {
+      padding: 0;
+    }
+  }
+}
+
+.inside-container {
+  max-width: 1200px;
+  margin: 0 auto;
+//  padding: 0px 60px;
+
+  .su-row {
+    margin-bottom: 0;
+    padding: 2%;
+  }
+}
+
+.clear-fix {
+
+  &:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+/**********
+2. PRE-HEADER
+***********/
+
+
+/*******
+3. HEADER
+********/
+
+@import "partials/header";
+
+/**********
+4. NAV
+***********/
+
+/**********
+5. CONTENT
+***********/
+
+.site-inner {
+  padding-top: 0;
+}
+
+.entry {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+/******
+6. FOOTER
+*******/
+
+@import "partials/footer";
+
+/********
+7. HOMEPAGE
+*********/
+
+@import "partials/home";
+
+/************
+8. CONTACT PAGE
+************/
+
+/****************
+9. MY WORK PAGE
+*****************/
+
+@import "partials/my-work";
+
+/****************
+10. CONTACT FORMS
+*****************/
+
+form label {
+  margin-bottom: 5px;
+  font-family: 'Lato';
+}
+form input.form-control,
+form textarea {
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);;
+  -moz-box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);;
+  box-shadow: inset 0px 1px 4px 0px rgba(0, 0, 0, 0.5);
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+  margin: 6px 0 15px;
+  background: whitesmoke;
+  font-size: 1em;
+  width: 100%;
+}
+
+form input {
+
+}
+
+form textarea {
+  min-height: 100px;
+}
+
+input[type="submit"] {
+  color: #fff;
+  font-family: Lato;
+  text-transform: uppercase;
+  padding: 11px 30px;
+  border-radius: 2px;
+  margin-top: 27px;
+  display: block;
+  border: none;
+  margin: 20px 0 0;
+  text-align: center;
+  font-size: 1em;
+  background: #4a6860;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+/*************
+XX. MEDIA QUERIES
+**************/
+@import "partials/media-queries";
+
