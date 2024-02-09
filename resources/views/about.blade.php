@@ -1,6 +1,6 @@
 @extends('layout')
 @section('pageClass', 'home')
-@section('tabTitle', 'Sean McDonnell - About')
+
 @section('content')
 <style>
 .roles h2 {
