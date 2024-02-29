@@ -27,19 +27,20 @@ header {
   background: url('images/pngegg.png');
   height: 370px;
   background-attachment: fixed;
-  padding: 40px 0;
+  padding: 30px 0;
   font-weight: 3em;
   text-align: center;
 }
 
 h1 {
-  margin: 2em;
+  
   font-size: 2.5em;
 }
 
 section p {
+  color: rgb(255, 253, 253);
   margin: 20px 0;
-  font-size: 1.1em;
+  font-size: 1.5em;
   line-height: 1.6;
 }
 
@@ -176,7 +177,7 @@ ul li::before {
               <h4>Intro to HTML and CSS</h4>
             </div>
             <div class="description">
-              <p>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p>
+              <p1>Build styled, well-structured websites. Learn how to use HTML5 standard to create websites. Understand CSS syntax, selectors, and units. Learn about code editors and a browser's Developer Tools.</p1>
             </div>
           </article>
           <article class='course'>
@@ -184,7 +185,7 @@ ul li::before {
               <h4>The Web Developer Bootcamp</h4>
             </div>
             <div class="descrition">
-              <p>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p>
+              <p1>Learn how to create full-stack web applications from scratch using HTML, CSS, JavaScript, jQuery, VanillaJS, NodeJS, MongoDB.</p1>
             </div>
           </article>
           <article class='course'>
@@ -192,7 +193,7 @@ ul li::before {
               <h4> Web Programming with JavaScript</h4>
             </div>
             <div class="descrition">
-              <p>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p>
+              <p1>Learn how to create web apps and prototypes with JavaScript, represent and exchange data using JavaScript Object Notation (JSON), and how to access RESTful APIs on the web.</p1>
             </div>
           </article>
           
