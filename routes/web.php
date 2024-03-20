@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MessageController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PagesController;
@@ -42,3 +43,4 @@ Route::get('/my-work', function () {
 Route::get('/my-resume', function () {
     return view('resume');
 });
+Route::get('/send-message', [MessageController::class, 'sendMessage'])->name('messages');
