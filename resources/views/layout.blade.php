@@ -46,7 +46,7 @@
                     @if(Session::has('success'))
                     <div class="alert-success"> {{ Session::get('success') }} </div>
                     @endif
-                    <<div class="col-sm-4">
+                    <div class="col-sm-4">
                         <h2>About this site:</h2>
                         <p>This site was created using Laravel 10 and has been my pet project
                             for a number months. When deciding to overhaul my portfolio site,
@@ -55,6 +55,7 @@
                             I plan to make to regular updates and improvements,
                             and hope to collect some remarks.</p>
                     </div> 
+                    <div style="margin-left:400px;" class="leftshift">
                     <div class="col-sm-6" style="text-align: center; position: initial;">
                         <div class="circle" ><img src="/images/naship-removebg-preview.png" style="margin-right: 10 px; background-color:white; width: 150px; "></div>
                         <div class="vertical">
@@ -65,7 +66,7 @@
                             <div style="height: 10px;"></div>
                             <a href="mailto:nashipacharya@gmail.com"><img style="display: inline; margin: 0 10px -5px;"
                                     src="/images/email-icon.png" width="30" height="20"></a><a
-                                href="mailto:nashipacharya@gmail.com>sean@sean-mcdonnell.com</a>
+                                href="mailto:nashipacharya@gmail.com"></a>
                             <div style="height: 10px;"></div>
                             <a href="https://github.com/naship-k-acharya"><img style="display: inline; margin: 0 10px -10px;"
                                     src="/images/github-icon.png" width="30" height="30"></a><a
@@ -74,19 +75,23 @@
                     </div>
                     <div class="col-sm-6">
                         <h2>Want to get in touch?</h2>
-                        <form action="{{ url('/')  }}" method="POST">
+                        <form action="{{ route('messages') }}" method="get" data-aos="fade-up" data-aos-delay="300" role="form">
                             @csrf
                             <div class="form-group">
+                            <input type="text" class="form-control" name="cf-name" placeholder="Name">
+                            </div>
+                            <div class="form-group">
                                 <label name="email">Your Email:</label>
-                                <input name="email" id="email" class="form-control">
+                                <input type="email" class="form-control" name="cf-email" placeholder="Email">
                             </div>
                             <div class="form-group">
                                 <label name="message">Your Message:</label>
-                                <textarea name="message" id="message" class="form-control"></textarea>
+                                <textarea class="form-control" rows="5" name="cf-message" placeholder="Message"></textarea>
                             </div>
-                            <input type="submit" value="Submit">
+                            <button type="submit" class="form-control" id="submit-button" name="submit">Send Message</button>
                         </form>
                     </div>
+                </div>
                 </div>
             </div>
         </div>

@@ -23,7 +23,7 @@
             <div>
                 <div style="position: relative; display: inline-block">
                     <img src="/images/educationworks-homepage.jpg">
-                    <img class="mobile" width="150" src="/images/eduwo-phone.png">
+                   
                 </div>
             </div>
             <img style="margin-top: 40px;" src="/images/educationworks-get-involved.jpg">
@@ -41,6 +41,7 @@
             </div>
         </div>
         <div class="scroll-content">
+            <div>
             <div style="position: relative; display: inline-block; margin-right: 100px;">
                 <img style="margin-top: 0px;width: 600px;" src="/images/hotel0001.jpg">
                 <img style="margin-top: 40px;width: 600px;" src="/images/hotel0002.jpg">
@@ -51,49 +52,47 @@
                 <img style="margin-top: 40px;width: 600px;" src="/images/hotel0007.jpg">
             </div>
         </div>
+        </div>
     </div>
 </section>
-
-
-{{-- <section class="my-work__section my-work__section--3 my-work__section--elevate">
+    <section class="my-work__section my-work__section--3 my-work__section--elevate">
     <div class="clear-fix">
         <div class="static static3">
             <div class="desc">
-                <h2>Hotel Reservation Page</h2>
-                <h3>Web Dev / UI</h3>
-                 <p>With a user-friendly interface and comprehensive search functionality, travelers can easily browse through a wide range of hotels, resorts, and vacation rentals to find the perfect stay for their needs. Our platform streamlines the booking process, allowing guests to secure their reservations with just a few clicks, while also providing access to exclusive deals and discounts.</p>
-                </p>
+                <h2>Nepalnewsonline</h2>
+                <h3>Web/UI/Laravel</h3>
+                <p>It has revolutionized the way people consume information, offering instant access to a wide range of news sources from around the globe.This web contain roles,Dashboard with insert,delete[ post,ads] , search engine and profile</p>
                 <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
-            <div style="position: relative; display: inline-block">
-                <img src="/images/hotel0001.jpg">
-                
+            <div>
+                <div style="position: relative; display: inline-block">
+                    
+                    <img style="float:right;width: 300px;" class="mobile" src="images/nepalnewsdashboard.png"  >
+                </div>
             </div>
-        </div>
-        <img style="margin-top: 40px;" src="/images/hotel0002.jpg">
-        <img style="margin-top: 40px;" src="/images/hotel0003.jpg">
+            <img style="margin-top: 0px;width: 600px;" style="margin-top: 40px;" src="/images/nepalnews.png">
         </div>
     </div>
-</section> --}}
-{{-- <section class="my-work__section my-work__section--4 my-work__section--homestead">
+
+    </section>
+
+<section class="my-work__section my-work__section--4 my-work__section--homestead">
     <div class="clear-fix">
         <div class="static static4">
             <div class="desc">
-                <h2>The Homestead Box</h2>
+                <h2>Gym Website</h2>
                 <h3>Web Dev / UI</h3>
-                 <p>The Homesteadbox offers a subscription service dedicated to self sufficiency
-                 in addition to regular newsletter and video based tutorials. Care was taken to keep
-                 the messaging simple and provide ample opportunities to sign up.</p>
+                 <p>this project has a community focus through blog and customer interaction with coaches and trainers.</p>
                 <a class="see-more" href="#" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
-            <img src="/images/thehomesteadbox-homepage.jpg">
+            <img style="margin-top: 0px;width: 600px;" src="/images/gymwebpic.png">
         </div>
     </div>
-</section>
+{{-- </section>
 <section class="my-work__section my-work__section--5 my-work__section--skinny">
     <div class="clear-fix">
         <div class="static static5">
