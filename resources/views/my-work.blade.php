@@ -37,7 +37,7 @@
                 <h2>Hotel Reservation Page</h2>
                 <h3>Web Dev / UI</h3>
                 <p>With a user-friendly interface and comprehensive search functionality, travelers can easily browse through a wide range of hotels, resorts, and vacation rentals to find the perfect stay for their needs. Our platform streamlines the booking process, allowing guests to secure their reservations with just a few clicks, while also providing access to exclusive deals and discounts.</p>
-                <a class="see-more" href="#" target="_blank">Take a Look</a>
+                <a class="see-more" href="https://github.com/naship-k-acharya/HotelBooking" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
