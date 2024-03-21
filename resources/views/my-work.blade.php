@@ -62,7 +62,7 @@
                 <h2>Nepalnewsonline</h2>
                 <h3>Web/UI/Laravel</h3>
                 <p>It has revolutionized the way people consume information, offering instant access to a wide range of news sources from around the globe.This web contain roles,Dashboard with insert,delete[ post,ads] , search engine and profile</p>
-                <a class="see-more" href="#" target="_blank">Take a Look</a>
+                <a class="see-more" href="https://github.com/naship-k-acharya/Nepalnewslaravel" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
@@ -85,7 +85,7 @@
                 <h2>Gym Website</h2>
                 <h3>Web Dev / UI</h3>
                  <p>this project has a community focus through blog and customer interaction with coaches and trainers.</p>
-                <a class="see-more" href="#" target="_blank">Take a Look</a>
+                <a class="see-more" href="https://github.com/naship-k-acharya/GYM" target="_blank">Take a Look</a>
             </div>
         </div>
         <div class="scroll-content">
